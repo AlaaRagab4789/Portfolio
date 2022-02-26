@@ -1,0 +1,300 @@
+*{
+
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+a{
+
+text-decoration: none;
+}
+
+body{
+
+font-family: 'Tajawal', sans-serif;
+
+}
+
+
+.navbar-light .navbar-toggler{
+
+border: none;
+outline: none;
+}
+
+.navbar-toggler{
+
+    font-size: 1.3rem;
+    display: none;
+    
+}
+
+.navbar-toggler i{
+
+color: #fff;
+font-size: 21px;
+}
+
+.navbar-toggler:focus{
+text-decoration: none;
+outline: 0;
+box-shadow: 0 0 0 0rem;
+}
+
+.navbar .navbar-brand{
+
+font-size: 23px;
+color: #282828bd;
+}
+
+
+.navbar .data{
+
+margin: 0px;
+}
+
+.navbar .data li{
+
+list-style-type: none;
+float: left;
+padding: 15px 10px;
+margin: 0px;
+
+}
+
+.navbar .data li a i{
+
+padding-left: 8px;
+font-size: 14px;
+color: #ddd;
+}
+
+.navbar .data li a{
+
+text-decoration: none;
+color: #eee;
+font-weight: 300;
+font-size: 15px;
+}
+
+.navbar .navbar-brand img{
+
+width: 70px;
+}
+
+
+
+.navbar-nav a i{
+
+padding-left: 8px;
+font-size: 14px;
+color: #999;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    font-size: 15.5px;
+    color: #eee;
+    font-weight: 300;
+
+}
+
+.navbar-nav .nav-item{
+
+padding: 6px 0px;
+}
+
+body{
+
+background-color: #494b50;
+font-family: 'Mulish', sans-serif;
+color: #fff;
+}
+
+.container{
+
+width: 95%;
+margin: 0px auto;
+}
+
+.navbar{
+
+    background-color: #30313418!important;
+
+}
+
+.section3 .portfolio-link ul{
+
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: 7px 0px;
+padding: 0px;
+}
+.section3 .portfolio-link ul li{
+list-style-type: none;
+padding: 5px 20px;
+cursor: pointer;
+color: #fff;
+    margin-right: 5px;
+    margin: 6px 0px;
+font-size: 15.5px;
+border: 1px solid rgb(197, 148, 32,0.7);
+margin-right: 7px;
+
+}
+
+.section3 .portfolio-link ul #one11{
+
+    background-color: rgb(197, 148, 32);
+
+}
+
+
+
+.section3 .portfolio-link ul .mixitup-control-active{
+
+    color: #fff;
+    background-color: #c59420;
+    ;
+
+}
+
+
+
+.section3 .portfolio11{
+
+background-image: url(../image/sdd.PNG);
+height: 400px;
+background-size: 100% 100%;
+cursor: pointer;
+}
+
+.section3 .portfolio22{
+
+background-image: url(../image/6.PNG);
+height: 400px;
+background-size: 100% 100%;
+cursor: pointer;
+
+}
+
+.section3 .portfolio33{
+
+background-image: url(../image/Capturedf.PNG);
+height: 400px;
+background-size: 100% 100%;
+cursor: pointer;
+
+}
+
+.section3 .portfolio44{
+
+background-image: url(../image/Capture.PNG);
+height: 400px;
+background-size: 100% 100%;
+cursor: pointer;
+
+}
+
+.section3 .portfolio11,.section3 .portfolio22,.section3 .portfolio33,.section3 .portfolio44{
+
+height: 250px;
+margin-bottom: 2%;
+margin-right: 2%;
+}
+
+.portfolio1-alpha,.portfolio2-alpha,.portfolio3-alpha,.portfolio4-alpha{
+
+height: 100%;
+background-color: rgba(0,0,0,0.3);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.portfolio1-alpha button,.portfolio2-alpha button,.portfolio3-alpha button,.portfolio4-alpha button{
+
+border: none;
+padding: 6px 25px;
+color: #fff;
+background-color: rgb(197, 148, 32,0.7)!important;
+font-size: 15.5px;
+border-radius: 3px;
+opacity: 0;
+transition: 1s;
+}
+
+.portfolio1-alpha:hover button{
+
+opacity: 1;
+
+}
+
+.portfolio2-alpha:hover button{
+
+opacity: 1;
+}
+
+.portfolio3-alpha:hover button{
+
+opacity: 1;
+}
+
+.portfolio4-alpha:hover button{
+
+opacity: 1;
+}
+
+
+
+
+
+.row>* {
+    padding-right: calc(var(--bs-gutter-x) * .0);
+    padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+@media(max-width:768px){
+
+.section3 .portfolio11,.section3 .portfolio22,.section3 .portfolio33,.section3 .portfolio44{
+
+height: 250px;
+margin-bottom: 2%;
+margin-right: 0%;
+}
+
+.navbar-toggler{
+
+    font-size: 1.6rem;
+    display: block;
+    
+}
+
+
+.navbar .data{
+
+list-style-type: none;
+float: left;
+padding: 15px 10px;
+margin: 0px;
+display: none;
+
+}
+
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    transition: .3s;
+}
+::-webkit-scrollbar-thumb {
+    background: #e1e6f1;
+}
